@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -12,7 +11,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -156,11 +154,11 @@ public class Steps extends BaseClass {
 
 		addCust.setManagerOfVendor("Vendor 2");
 		addCust.setGender("Male");
-		addCust.setFirstName("Pavan");
-		addCust.setLastName("Kumar");
-		addCust.setDob("7/05/1985"); // Format: D/MM/YYY
-		addCust.setCompanyName("busyQA");
-		addCust.setAdminContent("This is for testing.........");
+		addCust.setFirstName("Charan");
+		addCust.setLastName("Budama");
+		addCust.setDob("5/08/1987"); // Format: D/MM/YYY
+		addCust.setCompanyName("cucumber QA");
+		addCust.setAdminContent("Cucumber framework.........");
 
 	}
 
